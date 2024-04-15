@@ -1,20 +1,24 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from 'expo-status-bar'; 
+import { Text, TextInput, View } from 'react-native'; 
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+export default function MyApp() { 
+  return ( 
+    <View> 
+      <Text> 
+        {"\n\n\n\n\n\n"} 
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+        Hello, I am a student in CIS340! {"\n"} 
+      </Text> 
+      <TextInput 
+
+      style={{
+        height: 40, 
+        borderColor: "gray", 
+        borderWidth: 1 
+      }} 
+      /> 
+      </View> 
+  ); 
+} 
+
+ 
