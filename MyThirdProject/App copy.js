@@ -3,7 +3,7 @@ import { Text, View, Image } from 'react-native';
 
 export default function CatApp(){ 
   let pic = {  
-    url: 'https://github.com/AbdunabiRamadan/CIS340Images/blob/main/images/dog2.png'}; 
+    url: 'https://github.com/AbdunabiRamadan/CIS340-Images/blob/main/images/dog2.png' }; 
     return ( 
 
       <View style={{ 
