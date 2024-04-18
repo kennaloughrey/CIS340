@@ -11,7 +11,7 @@ export default MyScrollViewApp = () => (
 
         <ScrollView style={{padding: 40}}>
         <Text style={{fontSize: 80}}> Try to scroll down </Text>
-        <Image source={require('./assests/dog2.png')} style={{width: 80, height: 80}} />
+        <Image source={require('./assets/dog2.png')} style={{width: 80, height: 80}} />
         <Image source={dog} />
         <Image source={dog} />
         <Image source={dog} />
