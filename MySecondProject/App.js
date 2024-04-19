@@ -16,9 +16,10 @@ export default function MyApp() {
         borderColor: "gray", 
         borderWidth: 1 
       }} 
-      /> 
+      />
       </View> 
-  ); 
+  );
+   
 } 
 
  

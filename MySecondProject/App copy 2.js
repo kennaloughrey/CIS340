@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar'; 
-import { Text } from 'react-native'; 
+import { Text } from 'react-native';
 
 export default function MyApp() { 
   function getFullName(fName, mName, lName){ 
